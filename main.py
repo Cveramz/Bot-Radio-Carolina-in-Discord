@@ -160,7 +160,7 @@ async def podcast(ctx):
 async def rs(ctx):
     print(ctx.guild.name+" <- Redes sociales: Solicitado por este servidor")
     embed=discord.Embed(title="Redes sociales", color=0xff0000)
-    embed.set_thumbnail(url="https://i.postimg.cc/SR6PdD8X/image.jpg")
+    embed.set_thumbnail(url="https://i.postimg.cc/qqGx5Y73/1573754720-627318-1575646049-noticia-normal.jpg")
     embed.add_field(name="Spotify", value="radio! spotify", inline=True)
     embed.add_field(name="Facebook", value="radio! facebook", inline=True)
     embed.add_field(name="Twitter", value="radio! twitter", inline=True)
@@ -174,7 +174,7 @@ async def rs(ctx):
 async def spotify(ctx):
     embed=discord.Embed(title="¡HAZ CLICK AQUÍ!", url="https://open.spotify.com/user/radiocarolina993", description="Para entrar al Spotify haz click arriba.")
     embed.set_author(name="CAROLINA.CL", icon_url="https://i.postimg.cc/SR6PdD8X/image.jpg")
-    embed.set_thumbnail(url="https://i.postimg.cc/KjW19D22/Logo-Sitio-Web.png")
+    embed.set_thumbnail(url="https://i.postimg.cc/tRFS6v9y/Color-Spotify-Logo.jpg")
     embed.set_footer(text="Revisa más comandos con ***radio! comandos***")
     await ctx.send(embed=embed)
     print(ctx.guild.name+" <- Spotify: solicitado por este servidor")
@@ -182,7 +182,7 @@ async def spotify(ctx):
 async def facebook(ctx):
     embed=discord.Embed(title="¡HAZ CLICK AQUÍ!", url="https://www.facebook.com/RADIOCAROLINA/", description="Para entrar al Facebook haz click arriba.")
     embed.set_author(name="CAROLINA.CL", icon_url="https://i.postimg.cc/SR6PdD8X/image.jpg")
-    embed.set_thumbnail(url="https://i.postimg.cc/KjW19D22/Logo-Sitio-Web.png")
+    embed.set_thumbnail(url="https://i.postimg.cc/N0WD9mV5/facebook-logo-icon-134597.png")
     embed.set_footer(text="Revisa más comandos con ***radio! comandos***")
     await ctx.send(embed=embed)
     print(ctx.guild.name+" <- Facebook: solicitado por este servidor")
@@ -190,7 +190,7 @@ async def facebook(ctx):
 async def twitter(ctx):
     embed=discord.Embed(title="¡HAZ CLICK AQUÍ!", url="https://twitter.com/RadioCarolina", description="Para entrar al Twitter haz click arriba.")
     embed.set_author(name="CAROLINA.CL", icon_url="https://i.postimg.cc/SR6PdD8X/image.jpg")
-    embed.set_thumbnail(url="https://i.postimg.cc/KjW19D22/Logo-Sitio-Web.png")
+    embed.set_thumbnail(url="https://i.postimg.cc/50d5N1Yz/twitter-bird-white-on-blue.jpg")
     embed.set_footer(text="Revisa más comandos con ***radio! comandos***")
     await ctx.send(embed=embed)
     print(ctx.guild.name+" <- Twitter: solicitado por este servidor")
@@ -198,7 +198,7 @@ async def twitter(ctx):
 async def instagram(ctx):
     embed=discord.Embed(title="¡HAZ CLICK AQUÍ!", url="https://www.instagram.com/radiocarolina/", description="Para entrar al Instagram haz click arriba.")
     embed.set_author(name="CAROLINA.CL", icon_url="https://i.postimg.cc/SR6PdD8X/image.jpg")
-    embed.set_thumbnail(url="https://i.postimg.cc/KjW19D22/Logo-Sitio-Web.png")
+    embed.set_thumbnail(url="https://i.postimg.cc/zvqnKjkX/como-ocultar-mensajes-dms-de-instagram-conversaciones-andoid-ios-cover-e1600965280592.jpg")
     embed.set_footer(text="Revisa más comandos con ***radio! comandos***")
     await ctx.send(embed=embed)
     print(ctx.guild.name+" <- Instagram: solicitado por este servidor")
@@ -206,7 +206,7 @@ async def instagram(ctx):
 async def youtube(ctx):
     embed=discord.Embed(title="¡HAZ CLICK AQUÍ!", url="https://www.youtube.com/user/yoveocarolina", description="Para entrar al canal de Youtube haz click arriba.")
     embed.set_author(name="CAROLINA.CL", icon_url="https://i.postimg.cc/SR6PdD8X/image.jpg")
-    embed.set_thumbnail(url="https://i.postimg.cc/KjW19D22/Logo-Sitio-Web.png")
+    embed.set_thumbnail(url="https://i.postimg.cc/Yqq6Sd9d/youtube-logo-81-1024x228.png")
     embed.set_footer(text="Revisa más comandos con ***radio! comandos***")
     await ctx.send(embed=embed)
     print(ctx.guild.name+" <- Youtube: solicitado por este servidor")
@@ -214,7 +214,7 @@ async def youtube(ctx):
 async def tiktok(ctx):
     embed=discord.Embed(title="¡HAZ CLICK AQUÍ!", url="https://vm.tiktok.com/ZMehRUY6L/", description="Para entrar al Tik Tok de CAROLINA.CL haz click arriba.")
     embed.set_author(name="CAROLINA.CL", icon_url="https://i.postimg.cc/SR6PdD8X/image.jpg")
-    embed.set_thumbnail(url="https://i.postimg.cc/KjW19D22/Logo-Sitio-Web.png")
+    embed.set_thumbnail(url="https://i.postimg.cc/L8GLNRVW/tik-tok-para-empresas.jpg")
     embed.set_footer(text="Revisa más comandos con ***radio! comandos***")
     await ctx.send(embed=embed)
     print(ctx.guild.name+" <- Tik Tok: solicitado por este servidor")
