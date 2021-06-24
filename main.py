@@ -179,7 +179,7 @@ async def spotify(ctx):
     await ctx.send(embed=embed)
     print(ctx.guild.name+" <- Spotify: solicitado por este servidor")
 @bot.command()
-async def spotify(ctx):
+async def facebook(ctx):
     embed=discord.Embed(title="¡HAZ CLICK AQUÍ!", url="https://www.facebook.com/RADIOCAROLINA/", description="Para entrar al Facebook haz click arriba.")
     embed.set_author(name="CAROLINA.CL", icon_url="https://i.postimg.cc/SR6PdD8X/image.jpg")
     embed.set_thumbnail(url="https://i.postimg.cc/KjW19D22/Logo-Sitio-Web.png")
