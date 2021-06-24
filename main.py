@@ -219,6 +219,15 @@ async def tiktok(ctx):
     await ctx.send(embed=embed)
     print(ctx.guild.name+" <- Tik Tok: solicitado por este servidor")
 
+@bot.command()
+async def contacto(ctx):
+    embed=discord.Embed(title="CONTACTO", url="https://www.carolina.cl/page/contacto.html", color=0xff0000)
+    embed.set_thumbnail(url="https://i.postimg.cc/SR6PdD8X/image.jpg")
+    embed.add_field(name="Avenida Vicuña Mackenna #1370", value="Ñuñoa, Santiago Chile", inline=False)
+    embed.add_field(name="Telefono:", value="+56962458214", inline=True)
+    embed.add_field(name="Correo Electronico:", value="contacto@carolina.cl", inline=True)
+    await ctx.send(embed=embed)
+    print(ctx.guild.name+" <- Contado solicitado por este servidor")
 
 
 
